@@ -57,7 +57,7 @@ class App extends React.Component {
           <input
             type="text"
             className="bg-slate-600 text-white p-6 w-full outline-none text-3xl"
-            placeholder="Type something..."
+            placeholder="Type something NOW..."
             value={this.state.newItemTitle}
             onChange={this.inputHandler}
             onKeyDown={this.addItem}
